@@ -1,0 +1,6 @@
+venv
+*.pyc
+app/__pycache__
+__pycache__
+.idea/
+app/__pycache__/models.cpython-36.pyc
