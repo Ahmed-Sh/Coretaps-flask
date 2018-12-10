@@ -1,4 +1,6 @@
-import itertools, copy
+import itertools
+import copy
+
 
 class BaseStore:
 
@@ -27,6 +29,10 @@ class BaseStore:
         result = instance
         all_instances = self.get_all()
 
+        # This is not pythonic !
+        # Just for demonstration
+        # If you wanna know the pythonic code, use comprehension:
+        # https://stackoverflow.com/questions/2582138/finding-and-replacing-elements-in-a-list-python
         for index, current_instance in enumerate(all_instances):
             if current_instance.id == instance.id:
                 all_instances[index] = instance
