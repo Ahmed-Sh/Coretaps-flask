@@ -1,0 +1,45 @@
+header{
+    text-align: center;
+    color: red;
+    background-color: yellow;
+}
+
+h2{
+    text-align: center;
+    color: blue;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.button{
+    color: white;
+    background-color: black;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+fieldset{
+    box-sizing: border-box;
+}
+
+textarea{
+    width: 50%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
